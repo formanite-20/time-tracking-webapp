@@ -1,0 +1,19 @@
+# npm
+/node_modules
+
+# typescript output
+/dist
+
+# vim
+.*.swp
+
+# nyc
+/.nyc_output
+
+# esbuild output
+/public/script.js
+
+.DS_Store
+
+.env
+.idea

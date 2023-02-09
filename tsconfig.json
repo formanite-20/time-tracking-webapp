@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2019",
+
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": true,
+
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "src/types/*"
+            ]
+        },
+        "lib": [
+          "DOM",
+          "ES2021"
+        ],
+        "declaration": true,
+        "jsx": "react"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
